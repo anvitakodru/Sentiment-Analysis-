@@ -1,0 +1,26 @@
+{
+  "name": "node_nlp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "heroku"
+  ],
+  "dependencies": {
+    "apos-to-lex-form": "^1.0.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1",
+    "natural": "^0.6.3",
+    "nodemon": "^1.19.4",
+    "spelling-corrector": "^3.0.0",
+    "stopword": "^0.3.3"
+  },
+  "engines": {
+    "node": "14.16.1"
+  }
+}
