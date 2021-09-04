@@ -15,7 +15,7 @@ const submitReview = (e) => {
     .then(res => res.json())
     .then (({ analysis }) => {
       if (analysis < 0) {
-        emojiSection.innerHTML = '<img src="https://img.icons8.com/emoji/50/000000/angry-face-emoji--v2.png"/>';
+        emojiSection.innerHTML = '<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngitem.com%2Fmiddle%2FmhTmJ_angry-emoji-png-circle-transparent-png%2F&psig=AOvVaw28HiTIXmffIQpjyTi92-Ta&ust=1630866160104000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMDxrYz45fICFQAAAAAdAAAAABAI"/>';
         title.style.color = 'red';
         outline.style.borderColor = 'red';
       };
