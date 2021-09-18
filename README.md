@@ -1,2 +1,2 @@
 ## Sentiment Analysis
-Sentiment Analysis of product based reviews using Emotion AI (Natural Language Processing approaches).
+Sentiment Analysis of user entered data using Emotion AI (Natural Language Processing approaches).
